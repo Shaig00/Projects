@@ -70,3 +70,6 @@ surf(F_psi2)
 shading interp
 view([-47.682 79.249])
 title(['\Psi_{1,2}(x,y), E_2 = ' num2str(exE2)]);xlabel('x');ylabel('y');zlabel('\Psi_{1,2}(x,y)');
+
+
+run('Circ_pot_prog_e.m')
